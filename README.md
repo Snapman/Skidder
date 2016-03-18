@@ -1,7 +1,7 @@
 # Skidder
-An analysis and reporting GUI for Java application server logs such as JBoss or Tomcat.
+Skidder is an analysis and reporting GUI for Java application server logs such as JBoss or Tomcat.
 
-I looked everywhere for a GUI that would provide analysis and reporting tools for Java application server such as Tomcat, JBoss, Jetty, Glassfish, Weblogic, etc..  I could only find GUI tools that analyze plain *web server* logs, not Java *application server* logs.  What's the difference?  *Web server logs* are typically analyzed for hit count, HTTP error codes, IP addresses, and anything else that indicates activity and demographics of the clients that contact a web server.  Java application logs are typically analyzed for errors, their type, their frequency, and any anomolous activity related to a Java web application, in addition to regular web server concerns.
+I looked everywhere for a GUI that would provide analysis and reporting tools for Java application servers such as Tomcat, JBoss, Jetty, Glassfish, Weblogic, etc..  I could only find GUI tools that analyze plain *web server* logs, not Java *application server* logs.  What's the difference?  *Web server logs* are typically analyzed for hit count, HTTP error codes, IP addresses, and anything else that indicates activity and demographics of the clients that contact a web server.  Java application logs are typically analyzed for errors, their type, their frequency, and any anomolous activity related to a Java web application, in addition to regular web server concerns.
 
 Very few of the GUI's I looked at could parse JBoss logs or Tomcat logs.  One GUI did do well with logs from both types of servers, but only provided search capabilities.  While those capabilities were wonderful, I really needed reports on what kinds of error are being generated and how frequently.  So I decided to make my own GUI.
 
