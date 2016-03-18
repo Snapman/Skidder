@@ -5,7 +5,11 @@ I looked everywhere for a GUI that would provide analysis and reporting tools fo
 
 Very few of the GUI's I looked at could parse JBoss logs or Tomcat logs.  One GUI did do well with logs from both types of servers, but only provided search capabilities.  While those capabilities were wonderful, I really needed reports on what kinds of errors are being generated and how frequently.  So I decided to make my own GUI.
 
-So if this is a tool to analyze and report on Java application server logs, why is it written in Ruby?  I wanted to get this project done in half the time :).  It could have been any language that has a Regex library (Perl and Python come to mind) but I just happen to love Ruby.  Plus it gave me an opportunity to create a GUI application in Ruby -- something I have always wanted to do, but never had a good excuse for.  The only obstacle left was to find a GUI toolkit for Ruby that didn't suck.  When I failed at that, I decided to use SWT.  Since SWT is a Java GUI toolkit, that meant using JRuby!  Yay!  I can still use Ruby and a GUI toolkit that doesn't suck!
+So why Ruby?  Why not Java?
+
+I wanted to get this project done in half the time :).
+
+It could have been any language that has a Regex library (Perl and Python come to mind) but I just happen to love Ruby.  Plus it gave me an opportunity to create a GUI application in Ruby -- something I have always wanted to do, but never had a good excuse for.  The only obstacle left was to find a GUI toolkit for Ruby that didn't suck.  When I failed at that, I decided to use SWT.  Since SWT is a Java GUI toolkit, that meant using JRuby!  Yay!  I can still use Ruby and a GUI toolkit that doesn't suck!
 
 So why Skidder?  Just like Apache Chainsaw (an old project now) and the commercial product Sawmill, I am keeping with the logging industry terminology convention.  A skidder is a rubber-tired machine with a cable winch or grapple used to drag logs out of the forest.
 
